@@ -1,9 +1,42 @@
-# awesome-ai-coe
+<p align="center">
+  <img src="assets/hero.svg" alt="Awesome AI CoE" width="100%">
+</p>
 
-> A curated map of the best resources for building an AI Center of Excellence — focused on agentic systems, tooling, governance, and enterprise adoption.
+<h1 align="center">Awesome AI CoE</h1>
+
+<p align="center">
+  <strong>A curated operating map for AI Centers of Excellence: agentic systems, tooling, governance, adoption, memory, evals, and enterprise rollout.</strong>
+</p>
+
+<p align="center">
+  <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg"></a>
+  <a href="LICENSE"><img alt="License: CC0" src="https://img.shields.io/badge/license-CC0-0f172a.svg"></a>
+  <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-2563eb.svg"></a>
+</p>
+
+<p align="center">
+  <a href="#table-of-contents">Contents</a> ·
+  <a href="#1-ai-coe-foundations">Foundations</a> ·
+  <a href="#2-agentic-coding-tools">Agentic coding</a> ·
+  <a href="#5-governance--risk">Governance</a> ·
+  <a href="#9-evaluation--observability">Evals</a>
+</p>
+
+> A curated map of the best resources for building an AI Center of Excellence, focused on agentic systems, tooling, governance, and enterprise adoption.
 
 **Audience:** Everyone researching, building, or scaling agentic AI systems.  
 **Signals:** ⭐ GitHub stars · 🔗 backlinks · 📬 community submissions
+
+---
+
+## Operating Model
+
+| CoE Layer | Best resources should help with |
+| --- | --- |
+| Strategy | Choosing high-value workflows, ownership models, and adoption paths. |
+| Platform | Standardizing coding agents, MCP, memory, evals, observability, and deployment. |
+| Governance | Managing risk, privacy, procurement, policy, and human review boundaries. |
+| Enablement | Turning expert patterns into reusable playbooks, templates, and training loops. |
 
 ---
 
