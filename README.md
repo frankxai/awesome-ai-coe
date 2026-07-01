@@ -62,11 +62,11 @@
 > Frameworks, playbooks, and reference architectures for standing up an AI Center of Excellence.
 
 - [McKinsey — Building an AI CoE](https://www.mckinsey.com/capabilities/quantumblack/our-insights/building-an-effective-ai-center-of-excellence) — Organizational design patterns and operating models for enterprise AI.
-- [MIT Sloan — AI Strategy Playbook](https://mitsloan.mit.edu/ideas-made-to-matter/ai-strategy) — Academic perspective on aligning AI investment with business value.
-- [Google Cloud AI Adoption Framework](https://cloud.google.com/solutions/ai-adoption-framework) — Maturity model covering people, process, and technology dimensions.
-- [AWS AI/ML Center of Excellence Guide](https://aws.amazon.com/executive-insights/content/ai-center-of-excellence/) — Practical guidance on standing up an internal CoE on AWS.
+- [MIT Sloan — AI Strategy Playbook](https://mitsloan.mit.edu/ideas-made-to-matter/artificial-intelligence) — Academic perspective on aligning AI investment with business value.
+- [Google Cloud AI Adoption Framework](https://cloud.google.com/resources/ai-adoption-framework) — Maturity model covering people, process, and technology dimensions.
+- [AWS AI/ML Center of Excellence Guide](https://aws.amazon.com/blogs/machine-learning/establishing-an-ai-ml-center-of-excellence/) — Practical guidance on standing up an internal CoE on AWS.
 - [a16z — AI Canon](https://a16z.com/ai-canon/) — Curated reading list covering foundational AI/ML papers and concepts.
-- [Anthropic — Economic Index](https://www.anthropic.com/research/economic-index) — Data on how AI is being used across occupations today.
+- [Anthropic — Economic Index](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report) — Data on how AI is being used across occupations today.
 
 ---
 
@@ -110,7 +110,7 @@
 - [mcp.so](https://mcp.so/) — Searchable directory of community MCP servers.
 - [Smithery](https://smithery.ai/) — Package registry and discovery layer for MCP servers.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) ⭐ — Official GitHub MCP server exposing repos, PRs, issues, and Actions.
-- [Postgres MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) — Query Postgres databases directly from an MCP-compatible LLM client.
+- [Postgres MCP Server (Archived)](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) — Reference implementation (archived due to SQL injection constraints; use with read-only database connections).
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) ⭐ — Manage Cloudflare Workers, KV, R2, and D1 from an AI agent.
 
 ---
@@ -119,11 +119,11 @@
 
 > Frameworks, standards, and tooling for responsible AI deployment.
 
-- [NIST AI Risk Management Framework (AI RMF)](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf) — US government framework for managing AI risks across the full lifecycle.
+- [NIST AI Risk Management Framework (AI RMF)](https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf) — US government framework for managing AI risks across the full lifecycle.
 - [EU AI Act — Full Text](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) — EU regulation establishing risk tiers and compliance obligations for AI systems.
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — Top security risks specific to LLM-powered applications.
 - [Microsoft Responsible AI Principles](https://www.microsoft.com/en-us/ai/responsible-ai) — Six principles (fairness, reliability, privacy, inclusiveness, transparency, accountability) with tooling.
-- [Google — Secure AI Framework (SAIF)](https://safety.google/saif/) — Security framework for AI systems covering supply chain, model, and deployment risks.
+- [Google — Secure AI Framework (SAIF)](https://saif.google) — Security framework for AI systems covering supply chain, model, and deployment risks.
 - [LLM Guard](https://github.com/protectai/llm-guard) ⭐ — Open-source toolkit for sanitizing and protecting LLM inputs/outputs.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) ⭐ — Framework for adding validation, structured output, and guardrails to LLM calls.
 - [AI Fairness 360 (IBM)](https://github.com/Trusted-AI/AIF360) ⭐ — Toolkit for detecting and mitigating bias in ML datasets and models.
@@ -139,7 +139,7 @@
 - [.cursorrules Directory](https://cursor.directory/) — Community-built directory of Cursor rules searchable by stack.
 - [CLAUDE.md Community Examples](https://github.com/search?q=CLAUDE.md&type=repositories) — Search GitHub for real-world `CLAUDE.md` files in open-source projects.
 - [Anthropic — Model Context Protocol Memory](https://modelcontextprotocol.io/docs/concepts/resources) — Persistent resource patterns that serve a similar role to CLAUDE.md at runtime.
-- [Copilot Instructions (`.github/copilot-instructions.md`)](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-instructions-for-github-copilot) — GitHub Copilot's equivalent of repo-level AI instructions.
+- [Copilot Instructions (`.github/copilot-instructions.md`)](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) — GitHub Copilot's equivalent of repo-level AI instructions.
 
 ---
 
@@ -197,7 +197,7 @@
 - [Artisan](https://www.artisan.co/) — AI BDR ("Ava") that automates prospecting, personalization, and email sequences.
 - [Relevance AI](https://relevanceai.com/) — No-code platform for building sales and marketing AI agents with custom tools.
 - [HubSpot AI](https://www.hubspot.com/artificial-intelligence) — AI features embedded across CRM, email, content, and reporting.
-- [Breeze Copilot (HubSpot)](https://www.hubspot.com/products/artificial-intelligence/breeze) — AI copilot for CRM tasks: drafting emails, summarizing deals, and generating content.
+- [Breeze Copilot (HubSpot)](https://www.hubspot.com/products/artificial-intelligence) — AI copilot for CRM tasks: drafting emails, summarizing deals, and generating content.
 - [n8n](https://github.com/n8n-io/n8n) ⭐ — Open-source workflow automation with 400+ integrations; self-hostable.
 - [Zapier AI Actions](https://actions.zapier.com/) — Expose any Zapier action as a callable tool for GPT or custom agents.
 
@@ -224,6 +224,9 @@
 
 - [BCG — AI at Scale](https://www.bcg.com/capabilities/artificial-intelligence/ai-at-scale) — How leading enterprises are moving AI from pilots to production at scale.
 - [Gartner — AI CoE Maturity Model](https://www.gartner.com/en/information-technology/insights/artificial-intelligence) — Maturity assessment and roadmap for enterprise AI capability building.
+- [ai-coe](https://github.com/frankxai/ai-coe) — FrankX Enterprise AI Center of Excellence hub: reference models, standards, evaluation suites, and training frameworks.
+- [ai-capability-registry](https://github.com/frankxai/ai-capability-registry) — Central catalog for prompt templates, agent capability cards, and evaluation metrics.
+- [ai-architect-academy](https://github.com/frankxai/ai-architect-academy) — Training blueprints, lesson plans, and practical workshops for enterprise AI architects.
 - [Deloitte — State of AI in the Enterprise](https://www2.deloitte.com/us/en/insights/focus/cognitive-technologies/state-of-ai-and-intelligent-automation-in-business-survey.html) — Annual survey of AI adoption, ROI, and organizational challenges.
 - [Microsoft AI Transformation Playbook](https://adoption.microsoft.com/en-us/ai/) — Step-by-step guide for enabling Microsoft 365 Copilot across an enterprise.
 - [Salesforce AI Enterprise Playbook](https://www.salesforce.com/artificial-intelligence/) — Resources for deploying Einstein AI across sales, service, and marketing.
