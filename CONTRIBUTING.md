@@ -1,25 +1,20 @@
-# Contributing
+# Contributing Standards
 
-This is a curated AI Center of Excellence resource map. Contributions should help teams make better platform, governance, adoption, or operating-model decisions.
+We welcome contributions that align with our core thesis of **verifiable, world-healing, and rigorously-tested agent intelligence**.
 
-## Strong Additions
+## The Golden Rules
 
-- Primary sources from major AI, cloud, security, governance, or research organizations.
-- Open-source tools with clear enterprise or team adoption value.
-- Practical playbooks for agentic engineering, evals, governance, memory, observability, or enablement.
-- Resources that help founders or CoE leaders choose between competing patterns.
+1. **No Hallucinated Tooling**: If you submit an agent skill, prompt, or tool, it must be verified to work against a real API or framework.
+2. **Safety First**: Any capability that interfaces with the physical world, live capital, or critical infrastructure must include strict human-in-the-loop approval gates.
+3. **High Signal, Low Noise**: We prefer deeply curated, opinionated lists over exhaustive link dumps. If you add a repository, explain *why* it is the best-in-class choice for that specific layer of the agent OS.
+4. **Formatting**: Ensure your Markdown is clean. If adding to a list, use the existing `<details>` structure to preserve the scannability of the README.
 
-## Weak Additions
+## How to Submit
 
-- Generic AI news posts.
-- Vendor pages with no reusable framework or technical substance.
-- Duplicates of existing entries.
-- Links with unclear provenance or exaggerated claims.
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/amazing-new-skill`).
+3. Commit your changes (`git commit -m 'feat: Add incredible new skill'`).
+4. Push to the branch (`git push origin feature/amazing-new-skill`).
+5. Open a Pull Request.
 
-## Pull Request Checklist
-
-- Add one focused entry at a time.
-- Include a short, neutral description.
-- Prefer stable docs, repos, standards, or durable essays.
-- Keep provenance clear and avoid implying affiliation.
-- Run `./scripts/validate-links.ps1` before opening a PR.
+Your PR will be reviewed against our strict quality gates. We expect a high standard of engineering and documentation. Thank you for helping build the intelligence layer.
