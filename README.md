@@ -25,6 +25,8 @@ Assign clear owners for policy, data, architecture, procurement, and releases. P
 | [LangGraph](https://github.com/langchain-ai/langgraph) | MIT · 38,702★ | Resilient stateful agents. |
 | [gstack](https://github.com/garrytan/gstack) | MIT · 125,927★ | Product/design/engineering QA workflows. |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | MIT · 28,345★ | Small explicit multi-agent primitives. |
+| [SkillOpt](https://github.com/microsoft/SkillOpt) | MIT · 15,636★ | Validation-gated skill optimization; isolate pilots and retain human evaluation. |
+| [SkillSpector](https://github.com/NVIDIA/SkillSpector) | Apache-2.0 · 14,227★ | Pre-install skill scanning for supply-chain and prompt-injection signals; advisory, not a sandbox. |
 
 ## 6-Pillar curation lens
 
@@ -62,6 +64,6 @@ Open a PR with a primary URL, one-sentence distinct value, current maintenance e
 
 ## Research method
 
-This monthly pulse queried GitHub repository metadata on **2026-08-03** for identity, approximate stars, archived state, activity, and license posture. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
+This monthly pulse queried selected GitHub repository metadata on **2026-08-05** for identity, approximate stars, archived state, activity, and license posture. Earlier rows retain their prior dated snapshots where they were not re-fetched. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
 
-Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-03**.
+Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-05**.
