@@ -21,7 +21,7 @@ jobs:
         with:
           args: --accept=200,204,429 --timeout=20 --max-retries=3 --exclude-mail './**/*.md'
           fail: false
-          jobSummary: false
+          jobSummary: true
           output: ./lychee/out.md
 
       - name: Find existing broken-link issue
