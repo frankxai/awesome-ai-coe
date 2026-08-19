@@ -23,6 +23,13 @@ jobs:
           fail: false
           output: ./lychee/out.md
 
+      - name: DEBUG dump report
+        run: |
+          echo "---- out.md ----"
+          cat ./lychee/out.md || echo "(missing)"
+          echo "---- end ----"
+          ls -la ./lychee/ || true
+
       - name: Open or update broken-link issue
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
