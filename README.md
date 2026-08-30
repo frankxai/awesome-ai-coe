@@ -10,6 +10,25 @@ This is an independent, **web-first** catalog. It remains useful if every FrankX
 
 Assign clear owners for policy, data, architecture, procurement, and releases. Pilot separately from production and measure evidence—not demos.
 
+<!-- earned-skill-index:2026-08-30 -->
+
+## Earned agent skills (start here)
+
+Operators get leverage from **about 5–7 named workflows**, not bulk dumps. Hub: [https://github.com/frankxai/awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [earned index](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/EARNED-SKILLS.md) · [safety gate](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md).
+
+**AI CoE operating skills**
+
+| Pack | Job |
+| --- | --- |
+| [obra/superpowers](https://github.com/obra/superpowers) | SDLC methodology (TDD, review, debug) |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Product / design / QA operating system |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official vendor examples |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Skill supply-chain scan |
+| [github/awesome-copilot](https://github.com/github/awesome-copilot) | Copilot agents/instructions |
+
+Scan with [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) before a live profile. Do not install unsigned ZIP/S3 skill blobs or OpenClaw mass dumps.
+
+
 ## Peer directories and standards
 
 [microsoft/skills](https://github.com/microsoft/skills) · [agentskills/agentskills](https://github.com/agentskills/agentskills)
